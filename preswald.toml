@@ -1,0 +1,20 @@
+[project]
+title = "Personality Data Analysis App"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Personality Data Analysis App"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#94c4f2"
+
+[data.personality_dataset_csv]
+type = "csv"
+path = "data/personality_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
